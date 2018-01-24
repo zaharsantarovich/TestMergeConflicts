@@ -29,8 +29,9 @@ namespace WebApplication.Controllers
 
 		public ActionResult Help()
 		{
+			// Fix for critical bug Admin-001.
 			// Fix for critical bug Admin-002.
-			return Json(new { value = 2 });
+			return Json(new { value = 4 });
 		}
 	}
 }
