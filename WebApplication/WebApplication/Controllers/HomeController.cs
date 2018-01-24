@@ -26,5 +26,11 @@ namespace WebApplication.Controllers
 
 			return View();
 		}
+
+		public ActionResult Help()
+		{
+			// Fix for critical bug Admin-002.
+			return Json(new { value = 2 });
+		}
 	}
 }
