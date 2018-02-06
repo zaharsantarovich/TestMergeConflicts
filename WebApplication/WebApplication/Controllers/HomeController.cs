@@ -15,6 +15,7 @@ namespace WebApplication.Controllers
 
 		public ActionResult About()
 		{
+			// Admin-004 feature.
 			ViewBag.Message = "Your application description page.";
 
 			return View();
