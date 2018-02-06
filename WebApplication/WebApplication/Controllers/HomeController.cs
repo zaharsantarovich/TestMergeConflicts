@@ -11,6 +11,7 @@ namespace WebApplication.Controllers
 		public ActionResult Index()
 		{
 			// Admin-005 feature.
+			// Admin-007 feature.
 			return View();
 		}
 
