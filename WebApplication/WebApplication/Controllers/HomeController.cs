@@ -10,6 +10,7 @@ namespace WebApplication.Controllers
 	{
 		public ActionResult Index()
 		{
+			// Admin-005 feature.
 			return View();
 		}
 
